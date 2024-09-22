@@ -1,0 +1,7 @@
+
+Use capitalized form for each word's first letter in the name of functions
+
+For regular variable names, try to use lowercase words separated by underscores. If there are consecutive words, 
+capitalize the first letter of each word. This approach enhances readability.
+
+Use freestyle for variables with special meaning.
