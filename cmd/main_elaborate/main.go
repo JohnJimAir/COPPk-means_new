@@ -28,17 +28,17 @@ func main() {
 	// points, scale := utilities.ReadPEGASUS(file_directory, num_points, dimension, interval_start, interval_end, num_centers)
 	// points = utilities.Rescale(points, scale)
 
-	// filepath := "../../data/dataset/TwoDiamonds.csv"
-	// fmt.Println(filepath)
-	// points, dimension, num_points, num_centers, scale, labelSeq_benchmark := utilities.ReadFCPS(filepath)
-	// points = utilities.Rescale(points, scale)
-
-	file_directory := "../../data/dataset"
-	dimension := 1
-	fmt.Println("G2")
-	fmt.Println(dimension)
-	points, num_points, num_centers, scale, labelSeq_benchmark := utilities.ReadG2(file_directory, dimension)
+	filepath := "../../data/dataset/TwoDiamonds.csv"
+	fmt.Println(filepath)
+	points, dimension, num_points, num_centers, scale, labelSeq_benchmark := utilities.ReadFCPS(filepath)
 	points = utilities.Rescale(points, scale)
+
+	// file_directory := "../../data/dataset"
+	// dimension := 1
+	// fmt.Println("G2")
+	// fmt.Println(dimension)
+	// points, num_points, num_centers, scale, labelSeq_benchmark := utilities.ReadG2(file_directory, dimension)
+	// points = utilities.Rescale(points, scale)
 
 	flag.Parse()
 	LogN := 16

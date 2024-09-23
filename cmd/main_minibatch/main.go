@@ -98,7 +98,7 @@ func main() {
 
 	fmt.Printf("== ENCRYPT POINTS AND CENTERS ==\n")
 
-	file_path := "/home/chenjingwei/z_dataset/mnist_train_reduced.csv"
+	file_path := "../../data/dataset/mnist_train_reduced_64.csv"
 	points_allbatches, maximumDistance := utilities.ReadMNIST_Reduced(file_path)
 	points_allbatches = utilities.Rescale(points_allbatches, maximumDistance)
 	// index_random := utilities.GenerateRandomNumbers_GivenInterval(0, 60000, 2)
