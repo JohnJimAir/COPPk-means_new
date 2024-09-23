@@ -1,8 +1,8 @@
 package main
 
 import (
+	"COPPk-means/plaintext/check"
 	"fmt"
-	"goisbest/plaintext/check"
 )
 
 func main(){

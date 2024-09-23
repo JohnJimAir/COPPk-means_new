@@ -1,8 +1,8 @@
 package signcompare
 
 import (
+	"COPPk-means/utilities/coefficients"
 	"fmt"
-	"goisbest/utilities/coefficients"
 	"time"
 
 	"github.com/tuneinsight/lattigo/v5/core/rlwe"

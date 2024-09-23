@@ -1,8 +1,8 @@
 package plaintext
 
 import (
+	"COPPk-means/utilities/coefficients"
 	"fmt"
-	"goisbest/utilities/coefficients"
 
 	"os"
 )

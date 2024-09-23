@@ -20,7 +20,7 @@ var flagShort = flag.Bool("short", false, "run the example with a smaller and in
 
 func main() {
 
-	// file_directory := "/home/chenjingwei/z_dataset"
+	// file_directory := "../../data/dataset"
 	// num_points := 3276
 	// dimension := 64
 	// interval_start, interval_end := 0.0, 1.0
@@ -28,12 +28,12 @@ func main() {
 	// points, scale := utilities.ReadPEGASUS(file_directory, num_points, dimension, interval_start, interval_end, num_centers)
 	// points = utilities.Rescale(points, scale)
 
-	// filepath := "/home/chenjingwei/z_dataset/TwoDiamonds.csv"
+	// filepath := "../../data/dataset/TwoDiamonds.csv"
 	// fmt.Println(filepath)
 	// points, dimension, num_points, num_centers, scale, labelSeq_benchmark := utilities.ReadFCPS(filepath)
 	// points = utilities.Rescale(points, scale)
 
-	file_directory := "/home/chenjingwei/z_dataset"
+	file_directory := "../../data/dataset"
 	dimension := 1
 	fmt.Println("G2")
 	fmt.Println(dimension)
@@ -52,12 +52,13 @@ func main() {
 	var err error
 	if params, err = hefloat.NewParametersFromLiteral(
 		hefloat.ParametersLiteral{
-			LogN:            LogN,                                              // Log2 of the ring degree
+			LogN:            15,                                              // Log2 of the ring degree
 			LogQ:            []int{55, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40}, // Log2 of the ciphertext prime moduli
 			LogP:            []int{61, 61, 61},                                 // Log2 of the key-switch auxiliary prime moduli
 			LogDefaultScale: 40,                                                // Log2 of the scale
 			Xs:              ring.Ternary{H: 192},
 			RingType:        0,
+			LogNthRoot: 	 17,
 		}); err != nil {
 		panic(err)
 	}

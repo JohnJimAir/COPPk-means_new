@@ -1,0 +1,63 @@
+G2
+1
+== GENERATE ROTATION EVALUATOR ==
+== GENERATE BOOTSTRAP EVALUATOR ==
+Generating bootstrapping evaluation keys...
+Done
+Pointer address: 0xc00032e000
+== GENERATE INNRESUM EVALUATOR ==
+PARAMETERS GENERATION TIME: 1m9.08168765s
+======================================================= arrangement2 =======================================================
+== EXTRACT POINTS AND CENTERS ==
+=============================== NOW AT THE 0th ITERATION ===============================
+== COMPUTE DISTANCE ==
+== DISTANCE COMPARISON ==
+Time of bootstrapping: 23.696842926s
+Time of bootstrapping: 23.12320703s
+Time of comparison function: 50.136781115s
+== UPDATE CENTERS ==
+Time of bootstrapping: 24.05485359s
+=============================== NOW AT THE 1th ITERATION ===============================
+== COMPUTE DISTANCE ==
+== DISTANCE COMPARISON ==
+Time of bootstrapping: 24.387854005s
+Time of bootstrapping: 24.860638503s
+Time of comparison function: 52.447595772s
+== UPDATE CENTERS ==
+Time of bootstrapping: 24.32018322s
+=============================== NOW AT THE 2th ITERATION ===============================
+== COMPUTE DISTANCE ==
+== DISTANCE COMPARISON ==
+Time of bootstrapping: 24.369816936s
+Time of bootstrapping: 23.750784472s
+Time of comparison function: 51.345853795s
+== UPDATE CENTERS ==
+Time of bootstrapping: 24.365185281s
+=============================== NOW AT THE 3th ITERATION ===============================
+== COMPUTE DISTANCE ==
+== DISTANCE COMPARISON ==
+Time of bootstrapping: 24.344874573s
+Time of bootstrapping: 24.478104413s
+Time of comparison function: 52.025336886s
+== UPDATE CENTERS ==
+Time of bootstrapping: 24.397419s
+=============================== NOW AT THE 4th ITERATION ===============================
+== COMPUTE DISTANCE ==
+== DISTANCE COMPARISON ==
+Time of bootstrapping: 23.605488372s
+Time of bootstrapping: 24.07854318s
+Time of comparison function: 50.870822703s
+== UPDATE CENTERS ==
+Time of bootstrapping: 24.272534119s
+=============================== NOW AT THE 5th ITERATION ===============================
+== COMPUTE DISTANCE ==
+== DISTANCE COMPARISON ==
+Time of bootstrapping: 24.003389879s
+Time of bootstrapping: 23.951899922s
+Time of comparison function: 51.193404074s
+PROGRAM EXECUTION TIME: 7m27.023847915s
+=============================== PRINT CHECK RESULT ===============================
+2
+0.99365234375
+ User time (seconds): 507.11
+        System time (seconds): 13.31

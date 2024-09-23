@@ -1,7 +1,7 @@
 package minibatch
 
 import (
-	"goisbest/ciphertext/elaborate"
+	"COPPk-means/ciphertext/elaborate"
 
 	"github.com/tuneinsight/lattigo/v5/core/rlwe"
 	"github.com/tuneinsight/lattigo/v5/he/hefloat"
